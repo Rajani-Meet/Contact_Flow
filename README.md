@@ -18,13 +18,10 @@ A modern contact management system built with React, Vite, and MongoDB.
   - React
   - Vite
   - React Router
-  - Framer Motion
   - Tailwind CSS
-  - Lucide Icons
-  - React Hot Toast
+
 
 - Backend:
   - Node.js
   - Express
   - MongoDB
-  - Mongoose
