@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001/api';
+// Use the deployed API URL in production, fallback to localhost in development
+const API_URL = import.meta.env.VITE_API_URL || 'https://contact-flow-backend.onrender.com/api';
 const CONTACTS_URL = `${API_URL}/contacts`;
 
 // Transform form data to match the API model structure
